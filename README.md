@@ -27,6 +27,6 @@ So,💩山代码，纯天然无污染，就没开源的必要了吧，婉拒了�
 
 
 # 项目地址：
-  <a href="https://github.com/Sharl210/coloros.pagelimits.mod/">
+  <a href="https://github.com/Sharl210/fuckinginput.coloros.baidu/">
 https://github.com/Sharl210/fuckinginput.coloros.baidu/
 </a>
