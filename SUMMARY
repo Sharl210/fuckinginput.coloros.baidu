@@ -1,0 +1,4 @@
+解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件
+采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行
+在此鸣谢Dexkit项目https://github.com/LuckyPray/DexKit
+本模块开发：Pantokrátor
