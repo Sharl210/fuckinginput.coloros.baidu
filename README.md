@@ -25,7 +25,7 @@ So,💩山代码，纯天然无污染，就没开源的必要了吧，婉拒了�
 ##### 如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽😭😭😭
 
 
-
+### [123云盘(国内)](https://www.123865.com/s/nQyRVv-5a60h)
 # 项目地址：
   <a href="https://github.com/Sharl210/fuckinginput.coloros.baidu/">
 https://github.com/Sharl210/fuckinginput.coloros.baidu/
