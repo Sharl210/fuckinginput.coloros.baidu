@@ -1,4 +1,12 @@
-解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件
-采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行
-在此鸣谢Dexkit项目https://github.com/LuckyPray/DexKit
-本模块开发：Pantokrátor
+百度输入法OPPO定制版增强恢复重构工程
+
+本仓库源码原始版本已丢失；当前公开代码根据宿主安装包逆向恢复，由AI完成重构，不是原始源代码。
+
+功能：解除剪贴板与复制文本限制、解除快捷短语100条和300字限制、修复历史快捷短语编辑目标；保留剪贴板计数/历史Hook。
+
+旧键盘工具栏搜索按钮Hook已完整移除：新版本已转向AI相关能力，且宿主支持用户自行调整搜索按钮显示与否，因此模块不再阉割该功能。
+
+DexKit 2.2.0结构特征匹配，发布安装包见GitHub Releases。
+
+致谢：DexKit https://github.com/LuckyPray/DexKit
+项目地址：https://github.com/Sharl210/fuckinginput.coloros.baidu

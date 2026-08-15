@@ -1,0 +1,11 @@
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+recovered-signing.jks
+dist/*.apk
+*.iml
+.idea/
+.DS_Store
+tools/__pycache__/

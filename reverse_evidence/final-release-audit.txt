@@ -1,0 +1,23 @@
+FINAL_RELEASE_STATIC_AUDIT=PASS
+SOURCE_STATUS=AI_RECONSTRUCTED_FROM_APK (original source lost; not original source code)
+RELEASE_ASSET=BaiduInputOppoEnhance-universal-dexkit-release.apk
+SHA-256: 2f11f564607d323197054ae57984c0fcdfc1421107c17583d6d40b8dc3c5c6c8
+
+Build baseline:
+- Android Gradle Plugin 9.3.1
+- Gradle Wrapper 9.7.0
+- DexKit 2.2.0
+- compileSdk 37; targetSdk 33; minSdk 23
+
+Static verification:
+- UPGRADE_STATIC_AUDIT=PASS
+- R8=PASS
+- Lint=PASS
+- APK signatures v1/v2/v3=PASS
+- old keyboard search blocker absent from HookEntry implementation and DexKit query chain
+- clipboard count/history, 7000-character copy path, quick-phrase quantity path, 300-character confirmation path and edit-target path present
+
+Release scope:
+- The APK is the signed release artifact.
+- The public repository intentionally excludes the private signing keystore and passwords.
+- Device-side host behavior must still be verified on the target host version; this record does not replace dynamic testing.

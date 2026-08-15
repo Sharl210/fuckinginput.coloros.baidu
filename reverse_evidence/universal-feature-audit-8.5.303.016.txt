@@ -1,0 +1,28 @@
+UNIVERSAL_FEATURE_AUDIT=OBSERVED
+SAMPLE=百度输入法定制版_8.5.303.016.apk
+PACKAGE=com.baidu.input_oppo
+VERSION=8.5.303.016
+
+COPY_LIMIT_PATH
+- Observed listener method: Lcom/baidu/mh2;->L(Landroid/content/Context;)V
+- Observed semantic strings: bdoppoime_ClipManager; accepted clip content
+- Observed call: String -> normalizer method Lcom/baidu/mh2;->r(Ljava/lang/String;)Ljava/lang/String;
+- Observed normalizer method has identity body in this sample; the generic resolver still selects the listener and its String(String) invoked method when present, and keeps framework LengthFilter context fallback.
+
+CLIPBOARD_HISTORY_PATH
+- Observed clipboard UI classes: Lcom/baidu/ej2; and Lcom/baidu/ej2$g;
+- Observed adapter setDatas(Ljava/util/List;)V and RecyclerView adapter structure.
+- No observed Iterator.remove plus 0x36b0 filter in this sample; this feature path is not activated when the limit-filter behavior is absent.
+
+QUICK_PHRASE_ENTRY_PATH
+- Observed onOptionsItemSelected(MenuItem)Z contains ArrayList.size(), constant 0x64, action constant 0x52, key string "2", and the original navigation call.
+- Observed navigator method: Lcom/baidu/ha9;->z(Landroid/content/Context;BLjava/lang/String;Landroid/os/Bundle;)Z with key_uid semantic string.
+
+QUICK_PHRASE_CONFIRM_PATH
+- Observed confirmation method: Lcom/baidu/z83;->onClick(Landroid/content/DialogInterface;I)V
+- Observed 0x12c length check and 0x7f120693 warning branch.
+- Observed couiInputView semantic field/use.
+
+ANCHOR_POLICY
+- No current host class descriptor, obfuscated method name, obfuscated field name, or resource ID is used as a unique resolver in HookEntry.kt.
+- Android framework descriptors and feature semantics are retained as DexKit constraints.

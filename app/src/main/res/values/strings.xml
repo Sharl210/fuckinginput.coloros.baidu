@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">百度输入法OPPO定制版增强</string>
+    <string name="xposed_desc">解除剪贴板计数与复制文本限制，解除快捷短语数量和300字限制，修复历史快捷短语编辑
+不再拦截键盘工具栏搜索按钮：新版本已转向AI相关能力，且宿主支持用户自行调整搜索按钮显示与否
+采用DexKit匹配，理论上通杀近版本，太过古早的版本可能不行
+在此鸣谢DexKit项目https://github.com/LuckyPray/DexKit
+本模块开发：Pantokrátor
+
+本工程为原始源码丢失后根据安装包逆向恢复并由AI重新编写的重构工程，不是原始源代码</string>
+</resources>
